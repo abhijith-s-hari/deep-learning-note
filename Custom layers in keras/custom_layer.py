@@ -30,6 +30,6 @@ model = Sequential([
 ])
 
 model.compile(optimizer = 'adam', loss = 'categorical_crossentropy')
-model.build(100, )
+model.build((1000, 20))
 model.summary()
 
